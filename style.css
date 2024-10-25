@@ -1,0 +1,54 @@
+.nav-container{
+    background-color: black;
+    height: 80px;
+
+
+}
+
+.name{
+    padding-left:  50px;
+    padding-top: 20px;
+    color: white;
+}
+.nav{
+    border-radius: 2rem;
+}
+.Container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.box1{
+    background-color: wheat;
+    flex: 1;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+   
+}
+.box2{
+    background-color: wheat;
+    flex: 1;
+    height: 50vh;
+  
+  
+}
+.about{
+    color: black;
+    font-size: large;
+    height: 50px;
+    width: 100vh;
+    padding-right: 520px;
+    padding-left: 20px;
+
+}
+.description{
+    padding-left: 7px;
+}
+#profile{
+    border-radius: 20px;
+    
+    height: 300px;
+    width: 300px;
+}
