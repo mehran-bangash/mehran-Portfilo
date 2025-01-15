@@ -7,5 +7,8 @@ COPY app.py /app/
 # Set the working directory
 WORKDIR /app
 
+# Expose port 8080 for the HTTP server
+EXPOSE 8080
+
 # Run the script when the container starts
 CMD ["python", "app.py"]
